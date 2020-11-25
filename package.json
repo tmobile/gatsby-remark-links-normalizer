@@ -1,28 +1,31 @@
 {
-  "name": "@tmus/gatsby-remark-links-normalizer",
-  "version": "0.0.1",
-  "description": "Ensures links that work in markdown on GitHub, GitLab, etc, work in your Gatsby site without modification",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc -b",
-    "test": "echo \"Please add unit tests\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/tmobile/gatsby-remark-links-normalizer"
-  },
-  "keywords": [
-    "gatsby",
-    "gatsby transformer",
-    "markdown"
-  ],
-  "author": "T-Mobile",
-  "license": "Apache 2",
-  "dependencies": {
-    "gatsby": "^2.27.3",
-    "unist-util-visit": "^2.0.2"
-  },
-  "devDependencies": {
-    "typescript": "^3.8.3"
-  }
+	"author": "T-Mobile",
+	"description": "Ensures links that work in markdown on GitHub, GitLab, etc, work in your Gatsby site without modification",
+	"license": "Apache 2.0",
+	"main": "src/index.js",
+	"name": "@tmus/gatsby-remark-links-normalizer",
+	"version": "0.0.1",
+	"bugs": {
+		"url": "https://github.com/tmobile/gatsby-remark-links-normalizer/issues"
+	},
+	"dependencies": {
+		"gatsby": "^2.27.3",
+		"unist-util-visit": "^2.0.2"
+	},
+	"devDependencies": {
+		"typescript": "^3.8.3"
+	},
+	"keywords": [
+		"gatsby",
+		"gatsby transformer",
+		"markdown"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tmobile/gatsby-remark-links-normalizer"
+	},
+	"scripts": {
+		"build": "tsc -b",
+		"test": "echo \"Please add unit tests\""
+	}
 }

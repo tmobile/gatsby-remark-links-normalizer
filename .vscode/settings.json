@@ -1,16 +1,28 @@
 {
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/*.js": true,
-    "**/*.js.map": true,
-    "**/*.d.ts": true
-  },
-  "cSpell.words": [
-    "MDAST",
-    "unist"
-  ]
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/*.js": true,
+		"**/*.js.map": true,
+		"**/*.d.ts": true
+	},
+	"cSpell.words": [
+		"MDAST",
+		"unist"
+	],
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": false,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true,
+		"source.fixAll": true,
+	},
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	]
 }

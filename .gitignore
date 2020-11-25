@@ -3,3 +3,21 @@
 *.js
 *.js.map
 node_modules/
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variable files
+.env*
+
+# gatsby files
+.cache/
+public

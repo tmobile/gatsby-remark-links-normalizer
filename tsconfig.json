@@ -1,26 +1,26 @@
 {
-  "compilerOptions": {
-    "target": "esnext",
-    "module": "commonjs",
-    "lib": ["dom", "es2017"],
-    "outDir": ".",
-    "allowJs": false,
-    "checkJs": false,
-    "declaration": true,
-    "declarationMap": true,
-    "esModuleInterop": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "jsx": "react",
-    // "noEmit": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "resolveJsonModule": true,
-    "sourceMap": true,
-    "strict": true,
-    "strictNullChecks": true,
-    "skipLibCheck": true
-  },
-  "include": ["./src/**/*"],
-  "exclude": ["./node_modules/**/*", "/*.js"]
+	/* Visit https://aka.ms/tsconfig.json to read more about this file */
+	"compilerOptions": {
+		"allowJs": false,
+		"checkJs": false,
+		"declaration": true,
+		"declarationMap": true,
+		"esModuleInterop": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"lib": ["dom", "es2017"],
+		"module": "commonjs",
+		"outDir": ".",
+		"target": "es5",
+		"jsx": "react",
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"skipLibCheck": true
+	},
+	"include": ["./src/**/*"],
+	"exclude": ["./node_modules/**/*", "/*.js"]
 }
