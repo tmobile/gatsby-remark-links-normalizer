@@ -1,7 +1,7 @@
 {
 	"env": {
-		"browser": true,
-		"es2021": true
+		"browser": false,
+		"es2020": true
 	},
 	"extends": [
 		"eslint:recommended",
@@ -27,9 +27,11 @@
 		"prettier"
 	],
 	"rules": {
+		"no-useless-escape": "off",
 		"prettier/prettier": "error",
 		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"@typescript-eslint/no-explicit-any": "off",
 		"react/no-unescaped-entities": "off"
 	},
-	"ignorePatterns": ["public/**"]
+	"ignorePatterns": ["public/**", "*.d.ts", "*.js", "node_modules/**"]
 }
