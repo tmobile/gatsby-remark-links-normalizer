@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc -b",
-    "test": "echo \"Please add unit tests\" && exit 1"
+    "test": "echo \"Please add unit tests\""
   },
   "repository": {
     "type": "git",
