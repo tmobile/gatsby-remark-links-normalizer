@@ -8,5 +8,9 @@
     "**/*.js": true,
     "**/*.js.map": true,
     "**/*.d.ts": true
-  }
+  },
+  "cSpell.words": [
+    "MDAST",
+    "unist"
+  ]
 }

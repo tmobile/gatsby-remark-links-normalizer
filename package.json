@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-remark-relative-links",
+  "name": "@tmus/gatsby-remark-links-normalizer",
   "version": "0.0.1",
-  "description": "Ensures links in markdown work in your Gatsby site",
+  "description": "Ensures links that work in markdown on GitHub, GitLab, etc, work in your Gatsby site without modification",
   "main": "index.js",
   "scripts": {
     "build": "tsc -b",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tmobile/gatsby-remark-relative-links"
+    "url": "https://github.com/tmobile/gatsby-remark-links-normalizer"
   },
   "keywords": [
     "gatsby",
@@ -19,6 +19,7 @@
   "author": "T-Mobile",
   "license": "Apache 2",
   "dependencies": {
+    "gatsby": "^2.27.3",
     "unist-util-visit": "^2.0.2"
   },
   "devDependencies": {
