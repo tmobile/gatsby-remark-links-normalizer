@@ -41,7 +41,7 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: ["gatsby-remark-links-normalizer"],
+        plugins: ["@tmus/gatsby-remark-links-normalizer"],
       },
     },
   ],
