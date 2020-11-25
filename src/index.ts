@@ -26,15 +26,14 @@
 
 import { PluginOptions } from "gatsby";
 import visit from "unist-util-visit";
-import { format } from "url";
 
-interface GatsbyRemarkRelativeLinksOptions extends PluginOptions {
+interface GatsbyRemarkLinksNormalizerOptions extends PluginOptions {
   indexFileName?: string;
 }
 
 export default function (
   args: any,
-  { indexFileName = "readme.md" }: GatsbyRemarkRelativeLinksOptions
+  { indexFileName = "readme.md" }: GatsbyRemarkLinksNormalizerOptions
 ) {
   const isIndex = args.markdownNode.fileAbsolutePath
     .toLowerCase()
@@ -79,7 +78,7 @@ export default function (
           .replace(/\.\.\/\//, "../"); // ..// => ../
       }
       // if ((link.url as string).includes("berlin")) {
-      console.log("********** Link change", {
+      console.log("Link changed", {
         from: link.url,
         to: newLinkHref,
       });
