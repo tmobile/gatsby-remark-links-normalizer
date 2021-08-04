@@ -24,7 +24,7 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-import visit from "unist-util-visit";
+const visit = require("unist-util-visit");
 
 export default function (args, { indexFileName = "readme.md", log = false }) {
 	const isIndex = args.markdownNode.fileAbsolutePath
