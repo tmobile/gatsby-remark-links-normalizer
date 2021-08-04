@@ -5,24 +5,17 @@
 	},
 	"extends": [
 		"eslint:recommended",
-		"plugin:@typescript-eslint/recommended",
-		"plugin:@typescript-eslint/recommended-requiring-type-checking",
 		"react-app",
 		"prettier",
-		"prettier/@typescript-eslint",
 		"plugin:prettier/recommended",
 		"prettier/react"
 	],
-	"parser": "@typescript-eslint/parser",
 	"parserOptions": {
-		"tsconfigRootDir": "./",
-		"project": ["./tsconfig.json"],
 		"ecmaFeatures": {
 			"jsx": true
 		}
 	},
 	"plugins": [
-		"@typescript-eslint",
 		"react",
 		"prettier"
 	],
@@ -33,5 +26,5 @@
 		"@typescript-eslint/no-explicit-any": "off",
 		"react/no-unescaped-entities": "off"
 	},
-	"ignorePatterns": ["public/**", "*.d.ts", "*.js", "node_modules/**"]
+	"ignorePatterns": ["public/**", "*.d.ts", "node_modules/**"]
 }

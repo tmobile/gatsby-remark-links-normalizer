@@ -32,6 +32,7 @@
 	"scripts": {
 		"build": "tsc -b",
 		"test": "echo \"Please add unit tests\"",
-		"lint": "eslint ."
+		"lint": "eslint .",
+		"lint:fix": "eslint . --fix"
 	}
 }
