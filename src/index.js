@@ -26,7 +26,7 @@
 
 const visit = require("unist-util-visit");
 
-export default function (args, { indexFileName = "readme.md", log = false }) {
+module.exports = function (args, { indexFileName = "readme.md", log = false }) {
 	const isIndex = args.markdownNode.fileAbsolutePath
 		.toLowerCase()
 		.endsWith(indexFileName);
@@ -80,4 +80,4 @@ export default function (args, { indexFileName = "readme.md", log = false }) {
 	});
 
 	return markdownAST;
-}
+};
