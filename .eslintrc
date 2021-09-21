@@ -7,8 +7,7 @@
 		"eslint:recommended",
 		"react-app",
 		"prettier",
-		"plugin:prettier/recommended",
-		"prettier/react"
+		"plugin:prettier/recommended"
 	],
 	"parserOptions": {
 		"ecmaFeatures": {
