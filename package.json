@@ -10,7 +10,7 @@
 	},
 	"dependencies": {
 		"gatsby": "^3.14.0",
-		"unist-util-visit": "^2.0.2"
+		"unist-util-visit": "^4.0.0"
 	},
 	"devDependencies": {
 		"eslint": "^7.32.0",
