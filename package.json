@@ -9,7 +9,7 @@
 		"url": "https://github.com/tmobile/gatsby-remark-links-normalizer/issues"
 	},
 	"dependencies": {
-		"gatsby": "^3.14.0",
+		"gatsby": "^4.25.7",
 		"unist-util-visit": "^2.0.2"
 	},
 	"devDependencies": {
